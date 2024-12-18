@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFloppyDisk, faMagicWandSparkles, faPlusCircle, faWarning} from '@fortawesome/free-solid-svg-icons'
 import './AddRecord.css'
-import 'all.css'
+
 
 const Record = (props) => {
   const [editMode, setEditMode] = useState(false);
