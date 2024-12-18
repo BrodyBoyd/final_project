@@ -3,7 +3,6 @@ import { nanoid } from 'nanoid'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlusCircle} from '@fortawesome/free-solid-svg-icons'
 import './AddRecord.css'
-import addBackground from 'addBackground.jpg';
 
 
 const AddRecord = (props) => {
@@ -28,11 +27,6 @@ const AddRecord = (props) => {
   const imageUpdate = (event) => {
     setSelectedFile(event.target.files[0])
   }
-  const style = {
-    backgroundImage: `url(${addBackground})`,
-  };
-
-  document.getElementById("addRecord").style.backgroundImage = style;
 
   return (
     <div className='row addRecords' id='addRecord'>
