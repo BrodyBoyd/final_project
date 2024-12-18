@@ -3,9 +3,7 @@ import { nanoid } from 'nanoid'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlusCircle} from '@fortawesome/free-solid-svg-icons'
 import './AddRecord.css'
-import addBackground from './public/addBackground.jpg';
 
-const $ = selector => document.querySelector(selector); 
 
 const AddRecord = (props) => {
   const [recordName, setRecordName] = useState('')
