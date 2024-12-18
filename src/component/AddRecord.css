@@ -14,7 +14,7 @@ li {
 }
 
 .addRecords {
-  background-image: url('addBackground.jpg');
+  background-image: url('dist/assets/addBackground.jpg');
   background-size: cover;
   background-position: center;
 }
