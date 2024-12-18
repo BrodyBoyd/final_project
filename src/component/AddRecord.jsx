@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlusCircle} from '@fortawesome/free-solid-svg-icons'
 import './AddRecord.css'
-import addBackground from './addBackground.jpg';
+import addBackground from './dist/addBackground.jpg';
 
 
 const AddRecord = (props) => {
