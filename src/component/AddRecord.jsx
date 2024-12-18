@@ -32,7 +32,7 @@ const AddRecord = (props) => {
     backgroundImage: `url(${addBackground})`,
   };
 
-  document.getElementById("addRecord").style = style;
+  document.getElementById("addRecord").style.backgroundImage = style;
 
   return (
     <div className='row addRecords' id='addRecord'>
