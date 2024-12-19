@@ -29,3 +29,25 @@ li {
   background-color: #8B9EB7;
   color: #1F271B;
 }
+
+#searchRecords {
+
+  box-shadow: 5px 5px 5px 5px #5E239D;
+  border: thin solid black;
+  padding: 1em;
+  background-color: #8B9EB7;
+  color: #F4D35E;
+  text-shadow:  1.5px 1.5px black;
+  background-image: url('../searchBackground.png');
+  background-size: cover;
+}
+#allRecords {
+  border-radius: 24%;
+  box-shadow: 5px 5px 5px 5px #5E239D;
+  border: solid #16302B;
+  padding: 6em;
+  color: #F4D35E;
+  background-color: #FFB6C1;
+  background-image: url('../mainBackground.jpg');
+
+}
