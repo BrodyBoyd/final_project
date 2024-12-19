@@ -4,7 +4,6 @@ import {faFloppyDisk, faMagicWandSparkles, faPlusCircle, faWarning} from '@forta
 import './AddRecord.css'
 
 
-
 const Record = (props) => {
   const [editMode, setEditMode] = useState(false);
   const [recordName, setRecordName] = useState('');

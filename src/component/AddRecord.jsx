@@ -6,7 +6,6 @@ import './AddRecord.css'
 
 
 
-
 const AddRecord = (props) => {
   const [recordName, setRecordName] = useState('')
   const [artist, setArtist] = useState('')
