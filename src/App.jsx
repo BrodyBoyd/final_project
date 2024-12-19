@@ -7,7 +7,7 @@ import _ from 'lodash';
 import Record from './component/Records';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlusCircle, faSearch} from '@fortawesome/free-solid-svg-icons'
-import 'AddRecord.css'
+import './component/AddRecord.css'
 
 
 function App() {
